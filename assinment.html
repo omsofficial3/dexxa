@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GGGGGGG</title>
+</head>
+<body>
+    
+
+
+     <h1> DEXXETORY DEXXAS </h1>
+ 
+     <input id="DEXXA"  onkeypress="Yek()"><br>
+
+
+    <h1 id="friend"></h1>
+
+
+
+    <select onchange="color(this.value)">
+
+
+        <option value="RED"> R</option>
+        <option value="YELLOW"> y</option>
+        <option value="blue"> bl</option>
+        <option value="PINK"> p</option>
+        <option value="BROWN"> br</option>
+        <option value="BLACK"> blc</option>
+
+    </select>
+
+
+      <script>
+            function Yek() {
+                let Hok = document.getElementById("DEXXA");
+                let textvalue =Hok.value;
+                let friend = document.getElementById("friend");
+                friend.innerText=textvalue;
+
+            }
+
+                function color(value){
+
+                    document.body.style.backgroundColor=value;
+                }
+            
+      </script>
+
+</body>
+</html>
